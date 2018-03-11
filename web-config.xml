@@ -1,0 +1,17 @@
+<web-config>
+    <routes>
+        <route regex="/" control="homepage.xq"/>
+        <route regex="/autocomplete" control="autocomplete.xq" roles="USER" partial="1" internal="1"/>
+        <route regex="/login" method="post" control="login.xq"/>
+        <route regex="/airlines" control="airlines.xq" roles="USER" partial="1" internal="1"/>
+        <route regex="/news" control="news.xq"/>
+        <route regex="/news/(.+)" control="news-detail.xq"/>
+        <route regex=".+" control="staticpages.xq"/>
+    </routes>
+
+
+    <security>
+        <restriction regex="/admin(/.*)?" role="ADMIN"/>
+        <restriction regex="/account(/.*)?" role="ANY"/>
+    </security>
+</web-config>

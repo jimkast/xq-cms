@@ -1,0 +1,13 @@
+<page url="index">
+    <title>Homepage</title>
+    <subtitle>Welcome to our website!</subtitle>
+    <content name="top_left">
+        <img src="/media/170419_youtravel_labranda_128x600_1.jpg"/>
+    </content>
+    <banner name="slider-banner" bordered="1">
+        <img src="/media/170419_youtravel_labranda_128x600_1.jpg"/>
+        <action type="URL">
+            <a href="http://www.microsoft.com"/>
+        </action>
+    </banner>
+</page>

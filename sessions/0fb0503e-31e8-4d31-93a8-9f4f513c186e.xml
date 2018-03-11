@@ -1,0 +1,6 @@
+<session id="0fb0503e-31e8-4d31-93a8-9f4f513c186e" role="USER" started="2018-02-27T01:34:20.326+02:00"
+         last-access="2018-02-27T01:34:20.326+02:00" expires="2018-02-27T06:34:20.326+02:00">
+    <user id="4" username="xmltestme" password="12345" agent-type="3" payment-type="3">
+        <name>XML Test User</name>
+    </user>
+</session>
